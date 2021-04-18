@@ -254,7 +254,7 @@ name, label, from, to, type, color, fromborder, toborder
 * **toborder(important)**: An integer. This parameter specifies to which side of the 'to' node the connection will end. That is, it tells us whether the connection ends at the top, bottom, left or right side of the 'to' node. To specify this parameter, it is recommended you use constants inside the instantiated graph object. For example, if we want to specify 'top', use *graph.top* for this parameter. Similarly you can specify *graph.bottom*, *graph.left* and *graph.right*.
 
 #### addConnection
-Using the parameters as described above, this function connects two nodes using a straight line.
+Using the parameters as described above, this function connects two nodes using a straight line.  
 ![Straight line example](./stright_line_example.PNG)
 ```javascript
 addConnection(name, label, from, to, type, color, fromborder, toborder)
