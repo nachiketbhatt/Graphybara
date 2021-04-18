@@ -87,7 +87,7 @@ graph.addRectangleNode("rectangle", "aqua", "My third", 400, 400, 160, 80)
 ####   addExtrapolatedGraph
 This function allows you to add a node which represents multiple nodes which we want to make abstract.
 An image of what we are aiming for:  
-![Extrapolated Graph example 1](extrapolated_graph_example1.png)![Extrapolated Graph example 2](extrapolated_graph_example2.png)  
+![Extrapolated Graph example 1](./extrapolated_graph_example1.png)![Extrapolated Graph example 2](./extrapolated_graph_example2.png)  
 Parameters are same as *addRectangleNode*.
 
 ```javascript
@@ -255,7 +255,7 @@ name, label, from, to, type, color, fromborder, toborder
 
 #### addConnection
 Using the parameters as described above, this function connects two nodes using a straight line.
-![Straight line example](stright_line_example.png)
+![Straight line example](./stright_line_example.png)
 ```javascript
 addConnection(name, label, from, to, type, color, fromborder, toborder)
 
@@ -265,7 +265,7 @@ graph.addConnection("one", "first to second", "first", "second", "bidirection", 
 
 #### addCurvedConnection
 Using the parameters as described above, this function connects two nodes using a curved line.  
-![Curved Example](curved_example.png)
+![Curved Example](./curved_example.png)
 ```javascript
 addCurvedConnection(name, label, from, to, type, color, fromborder, toborder)
 
@@ -275,7 +275,7 @@ graph.addCurvedConnection("two", "first to second", "first", "second", "onedirec
 
 #### addLConnection
 Using the parameters as described above, this function connects two nodes using a an L shaped line.
-![L shape example](l_shaped_example.png)
+![L shape example](./l_shaped_example.png)
 ```javascript
 addLConnection(name, label, from, to, type, color, fromborder, toborder)
 
@@ -285,7 +285,7 @@ graph.addLConnection("one", "first to second", "first", "second", "bidirection",
 
 #### addZConnection
 Using the parameters as described above, this function connects two nodes using a Z shaped line.  
-![Z shaped example](z_shape_example.png)
+![Z shaped example](./z_shape_example.png)
 ```javascript
 addZConnection(name, label, from, to, type, color, fromborder, toborder)
 
