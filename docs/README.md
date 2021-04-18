@@ -274,7 +274,7 @@ graph.addCurvedConnection("two", "first to second", "first", "second", "onedirec
 ```
 
 #### addLConnection
-Using the parameters as described above, this function connects two nodes using a an L shaped line.
+Using the parameters as described above, this function connects two nodes using a an L shaped line.  
 ![L shape example](./l_shaped_example.PNG)
 ```javascript
 addLConnection(name, label, from, to, type, color, fromborder, toborder)
