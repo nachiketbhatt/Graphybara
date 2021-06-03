@@ -15,4 +15,4 @@ and insert the following line inside your <head> tag in your HTML file like belo
 ```
 Replace *'Graphybara.js'* with the path to it from the HTML file.
 
-## Link to documentation
+## Link to [documentation](https://nachiketbhatt.github.io/Graphybara/)
